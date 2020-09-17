@@ -7,6 +7,10 @@ class Siswa extends CI_Controller
     parent::__construct();
 
     $this->load->model('SiswaModel');
+
+    if ($this->session->userdata('status') != "login") {
+      redirect(base_url("login"));
+    }
   }
 
   public function index()

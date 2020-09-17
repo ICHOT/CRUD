@@ -1,10 +1,13 @@
 <h1>&nbsp;JAMBU FIRE</h1>
+<h4>&nbsp;&nbsp;&nbsp;&nbsp;<a class="m-0 font-weight-bold text-dark badge badge-danger" href='<?php echo base_url('login/logout'); ?>'>LogOut</a></h4>
 <hr>
 
 <div class="card shadow mb-4">
   <div class="card-header py-3">
-    <a class="m-0 font-weight-bold text-primary" href='<?php echo base_url("siswa/tambah"); ?>'>Tambah Data</a><br><br>
+    <h4><a class="m-0 font-weight-bold text-dark badge badge-success" href='<?php echo base_url("siswa/tambah"); ?>'>Tambah Data</a></h4>
+
   </div>
+
   <div class="card-body">
     <div class="table-responsive">
       <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">

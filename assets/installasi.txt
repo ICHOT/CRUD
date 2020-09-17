@@ -1,0 +1,2 @@
+ganti nama folder menjadi -> CRUD
+import file sql (belajar.sql) ke phpmyadmin 
