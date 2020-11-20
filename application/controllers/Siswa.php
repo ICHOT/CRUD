@@ -15,10 +15,12 @@ class Siswa extends CI_Controller
 
   public function index()
   {
-    $data['judul'] = '';
+    $data['menu'] = 'Siswa';
+    $data['judul'] = ' - Siswa';
     $data['siswa'] = $this->SiswaModel->view();
 
     $this->load->view('templates/header', $data);
+    $this->load->view('templates/navbar', $data);
     $this->load->view('siswa/index', $data);
     $this->load->view('templates/footer');
   }

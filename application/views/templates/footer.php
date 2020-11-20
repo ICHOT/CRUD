@@ -1,20 +1,11 @@
-<!-- <script src=" <?php echo base_url('assets/chart.js/Chart.min.js') ?>">
-</script>
-<script src=" <?php echo base_url('js/sb-admin-2.min.js') ?>">
-</script>
-<script src=" <?php echo base_url('assets/jquery-easing/jquery.easing.min.js') ?>">
-</script>
-<script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/jquery-easing/jquery.easing.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/chart.js/Chart.min.js') ?>"></script>
-<script src="<?php echo base_url('assets/satatables/jquery.datatables.js') ?>"></script>
-<script src="<?php echo base_url('assets/satatables/datatables.bootstrap4.js') ?>"></script>
-<script src="<?php echo base_url('js/sb-admin.min.js/jquery.min.js') ?>"></script>
-<script src="<?php echo base_url('js/demo/datatables-demo.js') ?>"></script>
-<script src="<?php echo base_url('js/demo/chart-area-demo.js') ?>"></script>
-<script src="js/demo/chart-area-demo.js"></script>
-<script src="js/demo/chart-pie-demo.js"></script> -->
+<script src="<?= base_url('assets/'); ?>js/sb-admin-2.min.js"></script>
+<script src="<?= base_url('assets/'); ?>vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="<?= base_url('assets/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url('assets/'); ?>vendor/jquery/jquery.min.js"></script>
+
+<script src="<?= base_url('assets/'); ?>vendor/chart.js/Chart.min.js"></script>
+<script src="<?= base_url('assets/'); ?>js/demo/chart-area-demo.js"></script>
+<script src="<?= base_url('assets/'); ?>js/demo/chart-pie-demo.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

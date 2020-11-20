@@ -33,11 +33,11 @@ class Login extends CI_Controller
 
       redirect(base_url("siswa"));
     } else {
-      echo "Username dan password salah !";
+      echo "Username atau password salah !";
     }
   }
 
-  function logout()
+  function Logout()
   {
     $this->session->sess_destroy();
     redirect(base_url('login'));
